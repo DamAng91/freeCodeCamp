@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 255); /*function rgb (red,green,blue). Toma valores de 0 a 255, 255 es el color puro */
+    padding: 10px 0; /*10px top y bottom, 0 left y right */ 
+}
+
+.marker{
+    height: 25px;
+    width: 200px;
+    margin: 15px auto; /*15px margin top y bottom; auto: margin left y right */
+}
+
+.one {
+    background-color: rgb(255, 255, 0); /* color secundario amarillo */
+}
+.two {
+    background-color: rgb(0, 255, 255); /* color secundario cyan */
+}
+.three{
+    background-color: rgb(0, 0, 255);
+}

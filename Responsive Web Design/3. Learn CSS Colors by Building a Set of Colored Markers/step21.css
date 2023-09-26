@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(0, 0, 0); /*function rgb (red,green,blue) */
+}
+
+.marker{
+    height: 25px;
+    width: 200px;
+    margin: 15px auto; /*15px margin top y bottom; auto: margin left y right */
+}
+
+.one {
+    background-color: red;
+}
+.two {
+    background-color: green;
+}
+.three{
+    background-color: blue;
+}

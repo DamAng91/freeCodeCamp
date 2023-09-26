@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+.marker{
+    background-color: red;
+    height: 25px;
+    width: 200px;
+    margin: 15px auto; /*15px margin top y bottom; auto: margin left y right */
+}
