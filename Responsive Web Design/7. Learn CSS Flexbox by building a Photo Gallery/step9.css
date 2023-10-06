@@ -1,0 +1,14 @@
+.gallery {
+    width: 50%;
+    border: 5px solid red;
+}
+
+img {
+    width: 100%;
+    padding: 5px;
+    border: 5px solid blue;
+}
+
+* {
+    box-sizing: border-box; /* se ajusta el width y height de acuerdo al contenido, padding y border pero no el margin */ 
+}
