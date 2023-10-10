@@ -1,0 +1,12 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* selectores */
+.label {
+    border: 2px solid black;
+}
