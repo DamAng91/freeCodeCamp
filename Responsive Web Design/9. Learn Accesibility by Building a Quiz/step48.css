@@ -19,7 +19,6 @@ header {
 h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
-    text-align: center;
 }
 
 nav {
@@ -31,12 +30,6 @@ nav {
 nav > ul {
     display: flex;
     justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
-    height: 100%;
 }
 
 nav > ul > li {
@@ -57,10 +50,6 @@ li > a {
     text-decoration: none;
 }
 
-main {
-    padding-top: 25px;
-}
-
 h1, h2 {
     font-family: Verdana, Tahoma;
 }
@@ -74,7 +63,7 @@ p::before {
     content: "Question #";
 }
 
-/* selectores */ 
+/* selectores */
 #logo {
     width: max(100px, 18vw);
     background-color: #0a0a23;

@@ -31,12 +31,6 @@ nav {
 nav > ul {
     display: flex;
     justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
-    height: 100%;
 }
 
 nav > ul > li {
@@ -74,7 +68,7 @@ p::before {
     content: "Question #";
 }
 
-/* selectores */ 
+/* selectores */
 #logo {
     width: max(100px, 18vw);
     background-color: #0a0a23;
