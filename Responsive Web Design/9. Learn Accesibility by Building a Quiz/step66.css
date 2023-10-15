@@ -1,9 +1,7 @@
-@media (prefers-reduced-motion: no-preference) {
-    * {
-        scroll-behavior: smooth;
-    }
+* {
+    scroll-behavior: smooth;
 }
-    
+
 body {
     background: #f5f6f7;
     color: #1b1b32;
@@ -124,7 +122,7 @@ p::before {
     content: "Question #";
 }
 
-/* selectores */ 
+/* selectores */
 #logo {
     width: max(100px, 18vw);
     background-color: #0a0a23;
@@ -165,7 +163,7 @@ p::before {
 
 .formrow {
     margin-top: 30px;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 .question-block {
