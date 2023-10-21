@@ -6,9 +6,6 @@ span[class~="sr-only"]{
     height: 1px;
     overflow: hidden;
     white-space: nowrap;
-    position: absolute;
-    padding: 0;
-    margin: -1px;
 }
 
 html {
@@ -18,10 +15,4 @@ html {
 body {
     font-family: sans-serif;
     color: #0a0a23;
-}
-
-h1 {
-    max-width: 37.25rem;
-    margin: 0 auto;
-    padding: 1.5rem 1.25rem;
 }
