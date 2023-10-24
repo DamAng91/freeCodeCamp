@@ -37,7 +37,7 @@ h1 .flex span:first-of-type {
 }
 
 h1 .flex span:last-of-type {
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
 
 section {
@@ -61,7 +61,7 @@ table caption {
     position: absolute;
     top: -2.25rem;
     left: 0.5rem;
-}
+} 
 
 tbody td {
     width: 100vw;
@@ -110,24 +110,6 @@ tr.data th {
     padding-left: 0.5rem;
 }
 
-tr.data th .description {
-    display: block;
-    font-style: italic;
-    font-weight: normal;
-    padding: 1rem 0 0.75rem;
-    margin-right: -13.5rem;
-}
-
-tr.data td {
-    vertical-align: top;
-    text-align: right;
-    padding: 0.3rem 0.25rem 0;
-}
-
-tr.data td:last-of-type {
-    padding-right: 0.5rem;
-}
-
 #years {
     display: flex;
     justify-content: flex-end;
@@ -141,7 +123,7 @@ tr.data td:last-of-type {
     z-index: 999;
 }
 
-#years span[class]{
+#years span[class] {
     font-weight: bold;
     width: 4.5rem;
     text-align: right;
@@ -149,4 +131,8 @@ tr.data td:last-of-type {
 
 .table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+span {
+    font-weight: normal;
 }

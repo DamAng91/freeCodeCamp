@@ -118,16 +118,6 @@ tr.data th .description {
     margin-right: -13.5rem;
 }
 
-tr.data td {
-    vertical-align: top;
-    text-align: right;
-    padding: 0.3rem 0.25rem 0;
-}
-
-tr.data td:last-of-type {
-    padding-right: 0.5rem;
-}
-
 #years {
     display: flex;
     justify-content: flex-end;
@@ -149,4 +139,8 @@ tr.data td:last-of-type {
 
 .table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+span {
+    font-weight: normal;
 }
