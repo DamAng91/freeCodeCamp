@@ -63,8 +63,8 @@ body {
     position: absolute;
     top: 22px;
     left: -20px;
-    border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
     border-top-right-radius: 10px;
     border-top-left-radius: 90px;
     border-right: 20px solid transparent;
@@ -129,7 +129,7 @@ body {
     border-bottom: 20px solid #442c2c;
 }
 
-.cat-mouth div {
+.cat-mouse div {
     width: 30px;
     height: 50px;
     border: 2px solid #000;
