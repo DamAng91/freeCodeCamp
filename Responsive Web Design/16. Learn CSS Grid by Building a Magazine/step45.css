@@ -39,8 +39,8 @@ img {
 }
 
 .heading {
-    display: grid;
     grid-column: 2/3;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
 }
@@ -58,28 +58,4 @@ img {
     text-align: center;
     color: orangered;
     font-size: 8rem;
-}
-
-.hero-subtitle {
-    font-size: 2.5rem;
-    color: orangered;
-    text-align: center;
-}
-
-.author {
-    font-size: 2rem;
-    font-family: Raleway, sans-serif;
-}
-
-.author-name a:hover {
-    background-color: #306203;
-}
-
-.publish-date {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.social-icons {
-    display: grid;
-    font-size: 3rem;
 }

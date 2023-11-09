@@ -39,8 +39,8 @@ img {
 }
 
 .heading {
-    display: grid;
     grid-column: 2/3;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
 }
@@ -61,7 +61,7 @@ img {
 }
 
 .hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     color: orangered;
     text-align: center;
 }
@@ -73,13 +73,4 @@ img {
 
 .author-name a:hover {
     background-color: #306203;
-}
-
-.publish-date {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.social-icons {
-    display: grid;
-    font-size: 3rem;
 }
