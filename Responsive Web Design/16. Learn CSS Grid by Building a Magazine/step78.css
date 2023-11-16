@@ -44,8 +44,8 @@ hr {
 }
 
 .heading {
-    display: grid;
     grid-column: 2/3;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
 }
@@ -70,7 +70,7 @@ hr {
 }
 
 .hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     color: orangered;
     text-align: center;
 }
@@ -160,26 +160,5 @@ hr {
 @media only screen and (max-width: 600px) {
     .text-with-images {
         grid-template-columns: 1fr;
-    }
-}
-
-@media only screen and (max-width: 550px) {
-    .hero-title {
-        font-size: 6rem;
-    }
-    .hero-subtitle, .author, .quote, .list-title {
-        font-size: 1.8rem;
-    }
-    .social-icons {
-        font-size: 2rem;
-    }
-    .text {
-        font-size: 1.6rem;
-    }
-}
-
-@media only screen and (max-width:420px) {
-    .hero-title {
-        font-size: 4.5rem;
     }
 }

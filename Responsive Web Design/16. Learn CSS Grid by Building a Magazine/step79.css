@@ -44,8 +44,8 @@ hr {
 }
 
 .heading {
-    display: grid;
     grid-column: 2/3;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
 }
@@ -70,7 +70,7 @@ hr {
 }
 
 .hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     color: orangered;
     text-align: center;
 }
@@ -175,11 +175,5 @@ hr {
     }
     .text {
         font-size: 1.6rem;
-    }
-}
-
-@media only screen and (max-width:420px) {
-    .hero-title {
-        font-size: 4.5rem;
     }
 }
