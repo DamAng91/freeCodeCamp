@@ -147,7 +147,7 @@ body {
     background-color: var(--penguin-face);
     top: 25%;
     left: -23%;
-    border-radius: 50%;
+    background-color: var(--penguin-face);
 }
 
 .blush {

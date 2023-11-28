@@ -147,7 +147,7 @@ body {
     background-color: var(--penguin-face);
     top: 25%;
     left: -23%;
-    border-radius: 50%;
+    background-color: var(--penguin-face);
 }
 
 .blush {
@@ -176,10 +176,4 @@ body {
     width: 20%;
     top: 60%;
     left: 40%;
-}
-
-.beak.bottom {
-    width: 16%;
-    top: 65%;
-    left: 42%;
 }
